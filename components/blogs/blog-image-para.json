@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blogs_blog_image_paras",
+  "info": {
+    "name": "blog_image_para",
+    "icon": "file-signature"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "richtext",
+      "required": true
+    },
+    "para_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
